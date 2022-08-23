@@ -79,10 +79,11 @@ background-color: #E0E0E0;
 
 .hero{
    display:flex;
-   justify-content:center;
+   justify-content:left;
    margin:auto;
    width:1000px;
    height:700px;
+  
 }
 
 .dress1{
