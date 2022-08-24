@@ -23,6 +23,7 @@ margin: auto
 .icons{
 display:flex;
 justify-content:space-evenly;
+align-items: center;
 background: #EBE9E9;
 margin: auto;
 color:black;
@@ -45,8 +46,12 @@ width: 150px;
 
 .nav-item a{
 color:black !important; 
-}
 
+}
+.nav-item a:active{
+   background-color:transparent !important; 
+   
+   }
 .home{
    font-weight: bold;
 }
@@ -67,23 +72,42 @@ color:black !important;
 }
 .icons2{
    display:flex;
+   align-items: center;
    justify-content:space-evenly;
-   align-items: baseline;
    background-color: #E0E0E0;
    color:black;
 
+}
+
+.iconColor{
+   color:black;
 }
 .test4{
 background-color: #E0E0E0;
 }
 
 .hero{
-   display:flex;
-   justify-content:left;
-   margin:auto;
+  
    width:1000px;
    height:700px;
-  
+   background-image: url("../images/hero.jpg");
+}
+.shop{
+   position:absolute;
+   bottom:5%;
+   right:72%;
+   background-color:#818D78;
+   color: white;
+}
+
+.letters{
+position:absolute;
+bottom:5%;
+right:38%;
+transform: translate(-50%, -50%);
+font-size:75px;
+font-family: 'Italiana', serif;
+background-color:transparent;
 }
 
 .dress1{
@@ -121,6 +145,7 @@ background-color: #E5DDc2;
 margin: auto;
 font-size:40;
 }
+
 #title2{
    display:flex;
    justify-content:center;

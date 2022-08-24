@@ -62,6 +62,7 @@
  .empty2{
     background-color: #E0E0E0;
  }
+
  .icons2{
     display:flex;
     justify-content:space-evenly;
@@ -117,6 +118,7 @@
  margin: auto;
  font-size:40;
  }
+
  #title2{
     display:flex;
     justify-content:center;
@@ -141,13 +143,16 @@
     color:black;
     background-color:#EBE9E9;
   }
+
  .form{
     padding:0%;
  }
+
  .box{
  background-color:#EBE9E9;
  padding:30px;
  }
+
  #sign{
     font-size:18px;
     font-weight: bold;
@@ -167,7 +172,6 @@
     height:40px;
     background-color:#EFEFEF;
  }
-
  #dress{
     color:black;
     font-size: 30px;
@@ -175,6 +179,7 @@
     font-size:30;
     font-family: 'Italiana', serif;
     }
+    
 .pic1{
    height:24px;
    width: 270px;
